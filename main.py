@@ -1,5 +1,8 @@
-
 from utils import factorial
+from utils import is_prime
 
-if __name__ == "__mail__":
-	print("Факторіал числа 5:", factorial(5))
+if __name__ == "__main__":
+	print("Факторіал числа n:", factorial(n))
+
+if __name__ == "__main__":
+	print(f"Чи є число {n} проcтим? - {is_prime(n)}")
